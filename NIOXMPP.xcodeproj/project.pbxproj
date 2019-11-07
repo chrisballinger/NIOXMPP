@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D90F57F92373B3CB009F97EA /* NIOXMPP.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F57F82373B3CB009F97EA /* NIOXMPP.swift */; };
+		D90F57FF2373B461009F97EA /* SendEmailHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F57FA2373B461009F97EA /* SendEmailHandler.swift */; };
+		D90F58002373B461009F97EA /* SMTPRequestEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F57FB2373B461009F97EA /* SMTPRequestEncoder.swift */; };
+		D90F58012373B461009F97EA /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F57FC2373B461009F97EA /* DataModel.swift */; };
+		D90F58022373B461009F97EA /* SMTPResponseDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F57FD2373B461009F97EA /* SMTPResponseDecoder.swift */; };
+		D90F58032373B461009F97EA /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F57FE2373B461009F97EA /* Configuration.swift */; };
+		D90F58052373B529009F97EA /* NIOTransportServices in Frameworks */ = {isa = PBXBuildFile; productRef = D90F58042373B529009F97EA /* NIOTransportServices */; };
+		D90F58072373B529009F97EA /* XMLCoder in Frameworks */ = {isa = PBXBuildFile; productRef = D90F58062373B529009F97EA /* XMLCoder */; };
+		D90F580A2373B58C009F97EA /* NIOSSL in Frameworks */ = {isa = PBXBuildFile; productRef = D90F58092373B58C009F97EA /* NIOSSL */; };
+		D90F580C2373B60E009F97EA /* Bootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F580B2373B60E009F97EA /* Bootstrap.swift */; };
+		D90F580F2373B661009F97EA /* NIOExtras in Frameworks */ = {isa = PBXBuildFile; productRef = D90F580E2373B661009F97EA /* NIOExtras */; };
+		D90F58112373B687009F97EA /* PrintEverythingHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F58102373B687009F97EA /* PrintEverythingHandler.swift */; };
+		D90F58422373B985009F97EA /* JID.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F58412373B985009F97EA /* JID.swift */; };
+		D90F58472373BAFA009F97EA /* XMPPStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F58462373BAFA009F97EA /* XMPPStream.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D90F57EE2373B3B1009F97EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D90F57F02373B3B1009F97EA /* libNIOXMPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNIOXMPP.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90F57F82373B3CB009F97EA /* NIOXMPP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NIOXMPP.swift; sourceTree = "<group>"; };
+		D90F57FA2373B461009F97EA /* SendEmailHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendEmailHandler.swift; sourceTree = "<group>"; };
+		D90F57FB2373B461009F97EA /* SMTPRequestEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMTPRequestEncoder.swift; sourceTree = "<group>"; };
+		D90F57FC2373B461009F97EA /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		D90F57FD2373B461009F97EA /* SMTPResponseDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMTPResponseDecoder.swift; sourceTree = "<group>"; };
+		D90F57FE2373B461009F97EA /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		D90F580B2373B60E009F97EA /* Bootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootstrap.swift; sourceTree = "<group>"; };
+		D90F58102373B687009F97EA /* PrintEverythingHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintEverythingHandler.swift; sourceTree = "<group>"; };
+		D90F58412373B985009F97EA /* JID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JID.swift; sourceTree = "<group>"; };
+		D90F58462373BAFA009F97EA /* XMPPStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMPPStream.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D90F57ED2373B3B1009F97EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90F58072373B529009F97EA /* XMLCoder in Frameworks */,
+				D90F58052373B529009F97EA /* NIOTransportServices in Frameworks */,
+				D90F580F2373B661009F97EA /* NIOExtras in Frameworks */,
+				D90F580A2373B58C009F97EA /* NIOSSL in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90107D22372981C009AFF93 = {
+			isa = PBXGroup;
+			children = (
+				D90F57F72373B3CB009F97EA /* NIOXMPP */,
+				D90107DC2372981C009AFF93 /* Products */,
+				D90107F623729C92009AFF93 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D90107DC2372981C009AFF93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D90F57F02373B3B1009F97EA /* libNIOXMPP.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D90107F623729C92009AFF93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D90F57F72373B3CB009F97EA /* NIOXMPP */ = {
+			isa = PBXGroup;
+			children = (
+				D90F58452373BACC009F97EA /* NIO */,
+				D90F58402373B95D009F97EA /* Models */,
+				D90F58462373BAFA009F97EA /* XMPPStream.swift */,
+			);
+			name = NIOXMPP;
+			path = Sources/NIOXMPP;
+			sourceTree = "<group>";
+		};
+		D90F58402373B95D009F97EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D90F58412373B985009F97EA /* JID.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D90F58452373BACC009F97EA /* NIO */ = {
+			isa = PBXGroup;
+			children = (
+				D90F58102373B687009F97EA /* PrintEverythingHandler.swift */,
+				D90F57FE2373B461009F97EA /* Configuration.swift */,
+				D90F57FC2373B461009F97EA /* DataModel.swift */,
+				D90F57FA2373B461009F97EA /* SendEmailHandler.swift */,
+				D90F57FB2373B461009F97EA /* SMTPRequestEncoder.swift */,
+				D90F57FD2373B461009F97EA /* SMTPResponseDecoder.swift */,
+				D90F57F82373B3CB009F97EA /* NIOXMPP.swift */,
+				D90F580B2373B60E009F97EA /* Bootstrap.swift */,
+			);
+			path = NIO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D90F57EF2373B3B1009F97EA /* NIOXMPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90F57F62373B3B1009F97EA /* Build configuration list for PBXNativeTarget "NIOXMPP" */;
+			buildPhases = (
+				D90F57EC2373B3B1009F97EA /* Sources */,
+				D90F57ED2373B3B1009F97EA /* Frameworks */,
+				D90F57EE2373B3B1009F97EA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NIOXMPP;
+			packageProductDependencies = (
+				D90F58042373B529009F97EA /* NIOTransportServices */,
+				D90F58062373B529009F97EA /* XMLCoder */,
+				D90F58092373B58C009F97EA /* NIOSSL */,
+				D90F580E2373B661009F97EA /* NIOExtras */,
+			);
+			productName = NIOXMPP;
+			productReference = D90F57F02373B3B1009F97EA /* libNIOXMPP.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D90107D32372981C009AFF93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = ChatSecure;
+				TargetAttributes = {
+					D90F57EF2373B3B1009F97EA = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = D90107D62372981C009AFF93 /* Build configuration list for PBXProject "NIOXMPP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D90107D22372981C009AFF93;
+			packageReferences = (
+				D90107E523729863009AFF93 /* XCRemoteSwiftPackageReference "swift-nio-transport-services" */,
+				D90107E823729896009AFF93 /* XCRemoteSwiftPackageReference "XMLCoder" */,
+				D90F58082373B58C009F97EA /* XCRemoteSwiftPackageReference "swift-nio-ssl" */,
+				D90F580D2373B661009F97EA /* XCRemoteSwiftPackageReference "swift-nio-extras" */,
+			);
+			productRefGroup = D90107DC2372981C009AFF93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D90F57EF2373B3B1009F97EA /* NIOXMPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D90F57EC2373B3B1009F97EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90F580C2373B60E009F97EA /* Bootstrap.swift in Sources */,
+				D90F58032373B461009F97EA /* Configuration.swift in Sources */,
+				D90F58422373B985009F97EA /* JID.swift in Sources */,
+				D90F57F92373B3CB009F97EA /* NIOXMPP.swift in Sources */,
+				D90F58012373B461009F97EA /* DataModel.swift in Sources */,
+				D90F57FF2373B461009F97EA /* SendEmailHandler.swift in Sources */,
+				D90F58472373BAFA009F97EA /* XMPPStream.swift in Sources */,
+				D90F58002373B461009F97EA /* SMTPRequestEncoder.swift in Sources */,
+				D90F58022373B461009F97EA /* SMTPResponseDecoder.swift in Sources */,
+				D90F58112373B687009F97EA /* PrintEverythingHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D90107E02372981C009AFF93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D90107E12372981C009AFF93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D90F57F42373B3B1009F97EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D90F57F52373B3B1009F97EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D90107D62372981C009AFF93 /* Build configuration list for PBXProject "NIOXMPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90107E02372981C009AFF93 /* Debug */,
+				D90107E12372981C009AFF93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90F57F62373B3B1009F97EA /* Build configuration list for PBXNativeTarget "NIOXMPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90F57F42373B3B1009F97EA /* Debug */,
+				D90F57F52373B3B1009F97EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D90107E523729863009AFF93 /* XCRemoteSwiftPackageReference "swift-nio-transport-services" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-nio-transport-services.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		D90107E823729896009AFF93 /* XCRemoteSwiftPackageReference "XMLCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MaxDesiatov/XMLCoder.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+		D90F58082373B58C009F97EA /* XCRemoteSwiftPackageReference "swift-nio-ssl" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-nio-ssl.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.3;
+			};
+		};
+		D90F580D2373B661009F97EA /* XCRemoteSwiftPackageReference "swift-nio-extras" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-nio-extras.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D90F58042373B529009F97EA /* NIOTransportServices */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D90107E523729863009AFF93 /* XCRemoteSwiftPackageReference "swift-nio-transport-services" */;
+			productName = NIOTransportServices;
+		};
+		D90F58062373B529009F97EA /* XMLCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D90107E823729896009AFF93 /* XCRemoteSwiftPackageReference "XMLCoder" */;
+			productName = XMLCoder;
+		};
+		D90F58092373B58C009F97EA /* NIOSSL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D90F58082373B58C009F97EA /* XCRemoteSwiftPackageReference "swift-nio-ssl" */;
+			productName = NIOSSL;
+		};
+		D90F580E2373B661009F97EA /* NIOExtras */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D90F580D2373B661009F97EA /* XCRemoteSwiftPackageReference "swift-nio-extras" */;
+			productName = NIOExtras;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D90107D32372981C009AFF93 /* Project object */;
+}

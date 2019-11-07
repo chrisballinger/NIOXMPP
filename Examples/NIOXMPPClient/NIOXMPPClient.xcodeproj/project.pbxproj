@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D90F581F2373B73B009F97EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F581E2373B73B009F97EA /* AppDelegate.swift */; };
+		D90F58212373B73B009F97EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F58202373B73B009F97EA /* SceneDelegate.swift */; };
+		D90F58232373B73B009F97EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F58222373B73B009F97EA /* ContentView.swift */; };
+		D90F58252373B73C009F97EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90F58242373B73C009F97EA /* Assets.xcassets */; };
+		D90F58282373B73C009F97EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90F58272373B73C009F97EA /* Preview Assets.xcassets */; };
+		D90F582B2373B73C009F97EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90F58292373B73C009F97EA /* LaunchScreen.storyboard */; };
+		D90F583D2373B7B8009F97EA /* libNIOXMPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D90F58372373B78B009F97EA /* libNIOXMPP.a */; };
+		D90F583F2373B8E4009F97EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F583E2373B8E4009F97EA /* ViewController.swift */; };
+		D90F58492373BDF4009F97EA /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F58482373BDF4009F97EA /* Settings.swift */; };
+		D90F584B2373BF3B009F97EA /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F584A2373BF3B009F97EA /* UserView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D90F58362373B78B009F97EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D90F58322373B78B009F97EA /* NIOXMPP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D90F57F02373B3B1009F97EA;
+			remoteInfo = NIOXMPP;
+		};
+		D90F58392373B7B5009F97EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D90F58322373B78B009F97EA /* NIOXMPP.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D90F57EF2373B3B1009F97EA;
+			remoteInfo = NIOXMPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D90F581B2373B73B009F97EA /* NIOXMPPClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIOXMPPClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90F581E2373B73B009F97EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D90F58202373B73B009F97EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D90F58222373B73B009F97EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D90F58242373B73C009F97EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D90F58272373B73C009F97EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D90F582A2373B73C009F97EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D90F582C2373B73C009F97EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90F58322373B78B009F97EA /* NIOXMPP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NIOXMPP.xcodeproj; path = ../../NIOXMPP.xcodeproj; sourceTree = "<group>"; };
+		D90F583E2373B8E4009F97EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D90F58482373BDF4009F97EA /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		D90F584A2373BF3B009F97EA /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D90F58182373B73B009F97EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90F583D2373B7B8009F97EA /* libNIOXMPP.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90F58122373B73B009F97EA = {
+			isa = PBXGroup;
+			children = (
+				D90F58322373B78B009F97EA /* NIOXMPP.xcodeproj */,
+				D90F581D2373B73B009F97EA /* NIOXMPPClient */,
+				D90F581C2373B73B009F97EA /* Products */,
+				D90F583C2373B7B8009F97EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D90F581C2373B73B009F97EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D90F581B2373B73B009F97EA /* NIOXMPPClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D90F581D2373B73B009F97EA /* NIOXMPPClient */ = {
+			isa = PBXGroup;
+			children = (
+				D90F581E2373B73B009F97EA /* AppDelegate.swift */,
+				D90F58202373B73B009F97EA /* SceneDelegate.swift */,
+				D90F583E2373B8E4009F97EA /* ViewController.swift */,
+				D90F584A2373BF3B009F97EA /* UserView.swift */,
+				D90F58482373BDF4009F97EA /* Settings.swift */,
+				D90F58222373B73B009F97EA /* ContentView.swift */,
+				D90F58242373B73C009F97EA /* Assets.xcassets */,
+				D90F58292373B73C009F97EA /* LaunchScreen.storyboard */,
+				D90F582C2373B73C009F97EA /* Info.plist */,
+				D90F58262373B73C009F97EA /* Preview Content */,
+			);
+			path = NIOXMPPClient;
+			sourceTree = "<group>";
+		};
+		D90F58262373B73C009F97EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D90F58272373B73C009F97EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D90F58332373B78B009F97EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D90F58372373B78B009F97EA /* libNIOXMPP.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D90F583C2373B7B8009F97EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D90F581A2373B73B009F97EA /* NIOXMPPClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90F582F2373B73C009F97EA /* Build configuration list for PBXNativeTarget "NIOXMPPClient" */;
+			buildPhases = (
+				D90F58172373B73B009F97EA /* Sources */,
+				D90F58182373B73B009F97EA /* Frameworks */,
+				D90F58192373B73B009F97EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D90F583A2373B7B5009F97EA /* PBXTargetDependency */,
+			);
+			name = NIOXMPPClient;
+			productName = NIOXMPPClient;
+			productReference = D90F581B2373B73B009F97EA /* NIOXMPPClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D90F58132373B73B009F97EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = ChatSecure;
+				TargetAttributes = {
+					D90F581A2373B73B009F97EA = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = D90F58162373B73B009F97EA /* Build configuration list for PBXProject "NIOXMPPClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D90F58122373B73B009F97EA;
+			productRefGroup = D90F581C2373B73B009F97EA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D90F58332373B78B009F97EA /* Products */;
+					ProjectRef = D90F58322373B78B009F97EA /* NIOXMPP.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D90F581A2373B73B009F97EA /* NIOXMPPClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D90F58372373B78B009F97EA /* libNIOXMPP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libNIOXMPP.a;
+			remoteRef = D90F58362373B78B009F97EA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D90F58192373B73B009F97EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90F582B2373B73C009F97EA /* LaunchScreen.storyboard in Resources */,
+				D90F58282373B73C009F97EA /* Preview Assets.xcassets in Resources */,
+				D90F58252373B73C009F97EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D90F58172373B73B009F97EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90F581F2373B73B009F97EA /* AppDelegate.swift in Sources */,
+				D90F584B2373BF3B009F97EA /* UserView.swift in Sources */,
+				D90F58212373B73B009F97EA /* SceneDelegate.swift in Sources */,
+				D90F583F2373B8E4009F97EA /* ViewController.swift in Sources */,
+				D90F58232373B73B009F97EA /* ContentView.swift in Sources */,
+				D90F58492373BDF4009F97EA /* Settings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D90F583A2373B7B5009F97EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NIOXMPP;
+			targetProxy = D90F58392373B7B5009F97EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D90F58292373B73C009F97EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90F582A2373B73C009F97EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D90F582D2373B73C009F97EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D90F582E2373B73C009F97EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D90F58302373B73C009F97EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NIOXMPPClient/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NIOXMPPClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.chatsecure.NIOXMPPClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D90F58312373B73C009F97EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NIOXMPPClient/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NIOXMPPClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.chatsecure.NIOXMPPClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D90F58162373B73B009F97EA /* Build configuration list for PBXProject "NIOXMPPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90F582D2373B73C009F97EA /* Debug */,
+				D90F582E2373B73C009F97EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90F582F2373B73C009F97EA /* Build configuration list for PBXNativeTarget "NIOXMPPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90F58302373B73C009F97EA /* Debug */,
+				D90F58312373B73C009F97EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D90F58132373B73B009F97EA /* Project object */;
+}
